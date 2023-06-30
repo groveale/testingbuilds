@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "testingbuilds-client-side-solution",
+    "id": "2e74702d-5124-40a2-bb59-6569ba1f5ebf",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "testingbuilds description"
+      },
+      "longDescription": {
+        "default": "testingbuilds description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "testingbuilds Feature",
+        "description": "The feature that activates elements of the testingbuilds solution.",
+        "id": "ca6e6277-a797-41de-82d9-2e5da85899b2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/testingbuilds.sppkg"
+  }
+}
